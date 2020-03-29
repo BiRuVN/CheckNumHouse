@@ -85,7 +85,7 @@ def extract_info(tags):
 
 numbers_list = []
 start = time.time()
-for i in range (50):
+for i in range (len(df)):
     text = df['description_2'][i]
     tags = ner(text)
     numbers_result = extract_info(tags)
