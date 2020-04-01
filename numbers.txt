@@ -5,5 +5,3 @@ tr/
 tr 
 tháng
 /
-m 
-m2
